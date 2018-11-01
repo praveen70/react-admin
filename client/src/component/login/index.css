@@ -1,0 +1,61 @@
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+
+  .App{
+    left:10px;
+    top:100px;
+    
+  }
+  .element {
+    display: flex;
+    background-image: orange;
+}
+
+.ant-form {
+
+  font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 46px;
+  font-variant: tabular-nums;
+  line-height: -4.5;
+  color: rgba(0, 0, 0, 0.65);
+  list-style: none;
+
+}
+.login-form{
+ border: solid;
+  box-shadow: 5px 3px 5px 3px ;
+  margin-left:100px;
+  
+ 
+ }
+ .input-sigin{
+  width:300px;
+ 
+}
+.checkBox{
+  margin-left:48px;
+}
+.forget-password{
+  margin-right:48px
+}
+
+.register{
+  margin-left:48px;
+}
+
+body  {
+  background-image: url('../image/background.jpg');
+  animation: wave 1s infinite ease-in-out alternate;
+  transition: all 0.4s ease-in-out;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  
+
+}
